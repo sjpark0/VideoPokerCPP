@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A6A27812972995700AAA546 /* CARD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A6A27782972995700AAA546 /* CARD.cpp */; };
+		0A6A27842972995700AAA546 /* VideoPoker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A6A277D2972995700AAA546 /* VideoPoker.cpp */; };
+		0A6A27852972995700AAA546 /* CheckCard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A6A277F2972995700AAA546 /* CheckCard.cpp */; };
+		0A6A278729729A1000AAA546 /* VideoPokerVSCPP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A6A278629729A1000AAA546 /* VideoPokerVSCPP.cpp */; };
+		0A70A34D29A6FEB900B7D075 /* VideoPoker2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A70A34B29A6FEB900B7D075 /* VideoPoker2.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0A6A276C2972991300AAA546 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0A6A276E2972991300AAA546 /* VideoPokerCPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VideoPokerCPP; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A6A27782972995700AAA546 /* CARD.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CARD.cpp; sourceTree = "<group>"; };
+		0A6A277A2972995700AAA546 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		0A6A277C2972995700AAA546 /* CheckCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckCard.h; sourceTree = "<group>"; };
+		0A6A277D2972995700AAA546 /* VideoPoker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VideoPoker.cpp; sourceTree = "<group>"; };
+		0A6A277E2972995700AAA546 /* VideoPoker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPoker.h; sourceTree = "<group>"; };
+		0A6A277F2972995700AAA546 /* CheckCard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CheckCard.cpp; sourceTree = "<group>"; };
+		0A6A27802972995700AAA546 /* CARD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CARD.h; sourceTree = "<group>"; };
+		0A6A278629729A1000AAA546 /* VideoPokerVSCPP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VideoPokerVSCPP.cpp; sourceTree = "<group>"; };
+		0A70A34B29A6FEB900B7D075 /* VideoPoker2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VideoPoker2.cpp; sourceTree = "<group>"; };
+		0A70A34C29A6FEB900B7D075 /* VideoPoker2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPoker2.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A6A276B2972991300AAA546 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A6A27652972991300AAA546 = {
+			isa = PBXGroup;
+			children = (
+				0A6A27702972991300AAA546 /* VideoPokerCPP */,
+				0A6A276F2972991300AAA546 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A6A276F2972991300AAA546 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A6A276E2972991300AAA546 /* VideoPokerCPP */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A6A27702972991300AAA546 /* VideoPokerCPP */ = {
+			isa = PBXGroup;
+			children = (
+				0A6A27782972995700AAA546 /* CARD.cpp */,
+				0A6A27802972995700AAA546 /* CARD.h */,
+				0A6A277F2972995700AAA546 /* CheckCard.cpp */,
+				0A6A277C2972995700AAA546 /* CheckCard.h */,
+				0A6A277A2972995700AAA546 /* common.h */,
+				0A6A277D2972995700AAA546 /* VideoPoker.cpp */,
+				0A6A277E2972995700AAA546 /* VideoPoker.h */,
+				0A6A278629729A1000AAA546 /* VideoPokerVSCPP.cpp */,
+				0A70A34B29A6FEB900B7D075 /* VideoPoker2.cpp */,
+				0A70A34C29A6FEB900B7D075 /* VideoPoker2.h */,
+			);
+			path = VideoPokerCPP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A6A276D2972991300AAA546 /* VideoPokerCPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A6A27752972991300AAA546 /* Build configuration list for PBXNativeTarget "VideoPokerCPP" */;
+			buildPhases = (
+				0A6A276A2972991300AAA546 /* Sources */,
+				0A6A276B2972991300AAA546 /* Frameworks */,
+				0A6A276C2972991300AAA546 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoPokerCPP;
+			productName = VideoPokerCPP;
+			productReference = 0A6A276E2972991300AAA546 /* VideoPokerCPP */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A6A27662972991300AAA546 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0A6A276D2972991300AAA546 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 0A6A27692972991300AAA546 /* Build configuration list for PBXProject "VideoPokerCPP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A6A27652972991300AAA546;
+			productRefGroup = 0A6A276F2972991300AAA546 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A6A276D2972991300AAA546 /* VideoPokerCPP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A6A276A2972991300AAA546 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6A278729729A1000AAA546 /* VideoPokerVSCPP.cpp in Sources */,
+				0A70A34D29A6FEB900B7D075 /* VideoPoker2.cpp in Sources */,
+				0A6A27842972995700AAA546 /* VideoPoker.cpp in Sources */,
+				0A6A27812972995700AAA546 /* CARD.cpp in Sources */,
+				0A6A27852972995700AAA546 /* CheckCard.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0A6A27732972991300AAA546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0A6A27742972991300AAA546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0A6A27762972991300AAA546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0A6A27772972991300AAA546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A6A27692972991300AAA546 /* Build configuration list for PBXProject "VideoPokerCPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A6A27732972991300AAA546 /* Debug */,
+				0A6A27742972991300AAA546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A6A27752972991300AAA546 /* Build configuration list for PBXNativeTarget "VideoPokerCPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A6A27762972991300AAA546 /* Debug */,
+				0A6A27772972991300AAA546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A6A27662972991300AAA546 /* Project object */;
+}
